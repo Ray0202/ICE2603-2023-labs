@@ -1,0 +1,362 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 26 21:11:27 2023
+# Process ID: 42040
+# Current directory: E:/desk/code/verilog/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31580 E:\desk\code\verilog\lab3\lab3.xpr
+# Log file: E:/desk/code/verilog/lab3/vivado.log
+# Journal file: E:/desk/code/verilog/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/desk/code/verilog/lab3/lab3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/items/xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1109.082 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/items/xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_sc_computer' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_ram_dq_dram.mif'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/sc_datamem.coe'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_rom_irom.mif'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_rom_irom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_sc_computer_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_ram_dq_dram_1/sim/lpm_ram_dq_dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_ram_dq_dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_rom_irom_1/sim/lpm_rom_irom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_rom_irom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/immext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immext
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_computer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_datamem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_datamem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_instmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_instmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/sim/TB_sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_sc_computer
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+"xelab -wto 936b1373480f47d384d8a1d2709cebbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_sc_computer_behav xil_defaultlib.TB_sc_computer xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/items/xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 936b1373480f47d384d8a1d2709cebbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_sc_computer_behav xil_defaultlib.TB_sc_computer xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.immext
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.sc_cu
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.cla32
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.sc_cpu
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.lpm_rom_irom
+Compiling module xil_defaultlib.sc_instmem
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.lpm_ram_dq_dram
+Compiling module xil_defaultlib.sc_datamem
+Compiling module xil_defaultlib.sc_computer
+Compiling module xil_defaultlib.TB_sc_computer
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_sc_computer_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/xsim.dir/TB_sc_computer_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/xsim.dir/TB_sc_computer_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri May 26 21:12:03 2023. For additional details about this file, please refer to the WebTalk help file at E:/items/xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 116.637 ; gain = 17.641
+INFO: [Common 17-206] Exiting Webtalk at Fri May 26 21:12:03 2023...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1109.082 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_sc_computer_behav -key {Behavioral:sim_1:Functional:TB_sc_computer} -tclbatch {TB_sc_computer.tcl} -view {E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg
+source TB_sc_computer.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module TB_sc_computer.computer.imem.irom.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module TB_sc_computer.computer.dmem.dram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_sc_computer_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1111.914 ; gain = 2.832
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1176.766 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/items/xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_sc_computer' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_ram_dq_dram.mif'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/sc_datamem.coe'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_rom_irom.mif'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_rom_irom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_sc_computer_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_ram_dq_dram_1/sim/lpm_ram_dq_dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_ram_dq_dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_rom_irom_1/sim/lpm_rom_irom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_rom_irom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/immext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immext
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_computer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_datamem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_datamem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_instmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_instmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/sim/TB_sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_sc_computer
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+"xelab -wto 936b1373480f47d384d8a1d2709cebbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_sc_computer_behav xil_defaultlib.TB_sc_computer xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/items/xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 936b1373480f47d384d8a1d2709cebbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_sc_computer_behav xil_defaultlib.TB_sc_computer xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.immext
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.sc_cu
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.cla32
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.sc_cpu
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.lpm_rom_irom
+Compiling module xil_defaultlib.sc_instmem
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.lpm_ram_dq_dram
+Compiling module xil_defaultlib.sc_datamem
+Compiling module xil_defaultlib.sc_computer
+Compiling module xil_defaultlib.TB_sc_computer
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_sc_computer_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1176.766 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1176.766 ; gain = 0.000
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module TB_sc_computer.computer.imem.irom.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module TB_sc_computer.computer.dmem.dram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 1192.398 ; gain = 15.633
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/items/xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_sc_computer' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_ram_dq_dram.mif'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/sc_datamem.coe'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_rom_irom.mif'
+INFO: [SIM-utils-43] Exported 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/lpm_rom_irom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_sc_computer_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_ram_dq_dram_1/sim/lpm_ram_dq_dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_ram_dq_dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_rom_irom_1/sim/lpm_rom_irom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_rom_irom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/immext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immext
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_computer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_datamem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_datamem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_instmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_instmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/sim/TB_sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_sc_computer
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim'
+"xelab -wto 936b1373480f47d384d8a1d2709cebbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_sc_computer_behav xil_defaultlib.TB_sc_computer xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/items/xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 936b1373480f47d384d8a1d2709cebbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_sc_computer_behav xil_defaultlib.TB_sc_computer xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.immext
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.sc_cu
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.cla32
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.sc_cpu
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.lpm_rom_irom
+Compiling module xil_defaultlib.sc_instmem
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.lpm_ram_dq_dram
+Compiling module xil_defaultlib.sc_datamem
+Compiling module xil_defaultlib.sc_computer
+Compiling module xil_defaultlib.TB_sc_computer
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_sc_computer_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1192.398 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1192.398 ; gain = 0.000
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module TB_sc_computer.computer.imem.irom.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module TB_sc_computer.computer.dmem.dram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1192.398 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lessons\大二下\计算机组成\lab\lab3\lab3\lab3\zip_lab3 sc_computer\zip_lab3 sc_computer\sim\TB_sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lessons\大二下\计算机组成\lab\lab3\lab3\lab3\zip_lab3 sc_computer\zip_lab3 sc_computer\src\dff32.v:]
+ERROR: [Common 17-180] Spawn failed: Illegal byte sequence
+save_wave_config {E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 26 22:35:55 2023...

@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 29 19:04:32 2023
+# Process ID: 8768
+# Current directory: E:/desk/code/verilog/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7048 E:\desk\code\verilog\lab3\lab3.xpr
+# Log file: E:/desk/code/verilog/lab3/vivado.log
+# Journal file: E:/desk/code/verilog/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/desk/code/verilog/lab3/lab3.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.Register_PortA_Output_of_Memory_Primitives {false}] [get_ips lpm_rom_irom]
+generate_target all [get_files  E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom/lpm_rom_irom.xci]
+catch { config_ip_cache -export [get_ips -all lpm_rom_irom] }
+catch { [ delete_ip_run [get_ips -all lpm_rom_irom] ] }
+export_ip_user_files -of_objects [get_files E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom/lpm_rom_irom.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom/lpm_rom_irom.xci]
+export_simulation -of_objects [get_files E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom/lpm_rom_irom.xci] -directory E:/desk/code/verilog/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir E:/desk/code/verilog/lab3/lab3.ip_user_files -ipstatic_source_dir E:/desk/code/verilog/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/modelsim} {questa=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/questa} {riviera=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/riviera} {activehdl=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.Write_Depth_A {32}] [get_ips lpm_ram_dq_dram]
+generate_target all [get_files  E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram/lpm_ram_dq_dram.xci]
+catch { config_ip_cache -export [get_ips -all lpm_ram_dq_dram] }
+export_ip_user_files -of_objects [get_files E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram/lpm_ram_dq_dram.xci] -no_script -sync -force -quiet
+reset_run lpm_ram_dq_dram_synth_1
+launch_runs lpm_ram_dq_dram_synth_1 -jobs 8
+wait_on_run lpm_ram_dq_dram_synth_1
+export_simulation -of_objects [get_files E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram/lpm_ram_dq_dram.xci] -directory E:/desk/code/verilog/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir E:/desk/code/verilog/lab3/lab3.ip_user_files -ipstatic_source_dir E:/desk/code/verilog/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/modelsim} {questa=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/questa} {riviera=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/riviera} {activehdl=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+set_property part xc7a50tcsg324-1 [current_project]
+reset_run lpm_ram_dq_dram_synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+open_run impl_1
+launch_simulation
+source TB_sc_computer.tcl
+close_sim
+export_ip_user_files -of_objects  [get_files E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom/lpm_rom_irom.xci] -no_script -reset -force -quiet
+remove_files  E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom/lpm_rom_irom.xci
+export_ip_user_files -of_objects  [get_files E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram/lpm_ram_dq_dram.xci] -no_script -reset -force -quiet
+remove_files  -fileset lpm_ram_dq_dram E:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram/lpm_ram_dq_dram.xci
+close_design
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name lpm_rom_irom
+set_property -dict [list CONFIG.Component_Name {lpm_rom_irom} CONFIG.Memory_Type {Single_Port_ROM} CONFIG.Write_Width_A {32} CONFIG.Write_Depth_A {64} CONFIG.Read_Width_A {32} CONFIG.Write_Width_B {32} CONFIG.Read_Width_B {32} CONFIG.Enable_B {Always_Enabled} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Register_PortB_Output_of_Memory_Primitives {false} CONFIG.Load_Init_File {true} CONFIG.Coe_File {E:/desk/code/verilog/lab3/lpm_rom_irom.coe} CONFIG.Port_A_Write_Rate {0} CONFIG.Port_B_Clock {0} CONFIG.Port_B_Enable_Rate {0}] [get_ips lpm_rom_irom]
+generate_target {instantiation_template} [get_files e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom_1/lpm_rom_irom.xci]
+generate_target all [get_files  e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom_1/lpm_rom_irom.xci]
+catch { config_ip_cache -export [get_ips -all lpm_rom_irom] }
+export_ip_user_files -of_objects [get_files e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom_1/lpm_rom_irom.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom_1/lpm_rom_irom.xci]
+launch_runs lpm_rom_irom_synth_1 -jobs 8
+wait_on_run lpm_rom_irom_synth_1
+export_simulation -of_objects [get_files e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom_1/lpm_rom_irom.xci] -directory E:/desk/code/verilog/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir E:/desk/code/verilog/lab3/lab3.ip_user_files -ipstatic_source_dir E:/desk/code/verilog/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/modelsim} {questa=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/questa} {riviera=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/riviera} {activehdl=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name lpm_ram_dq_dram
+set_property -dict [list CONFIG.Component_Name {lpm_ram_dq_dram} CONFIG.Write_Width_A {32} CONFIG.Write_Depth_A {32} CONFIG.Read_Width_A {32} CONFIG.Write_Width_B {32} CONFIG.Read_Width_B {32} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Load_Init_File {true} CONFIG.Coe_File {E:/desk/code/verilog/lab3/sc_datamem.coe} CONFIG.Fill_Remaining_Memory_Locations {true}] [get_ips lpm_ram_dq_dram]
+generate_target {instantiation_template} [get_files e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram_1/lpm_ram_dq_dram.xci]
+generate_target all [get_files  e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram_1/lpm_ram_dq_dram.xci]
+catch { config_ip_cache -export [get_ips -all lpm_ram_dq_dram] }
+export_ip_user_files -of_objects [get_files e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram_1/lpm_ram_dq_dram.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram_1/lpm_ram_dq_dram.xci]
+launch_runs lpm_ram_dq_dram_synth_1 -jobs 8
+wait_on_run lpm_ram_dq_dram_synth_1
+export_simulation -of_objects [get_files e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_ram_dq_dram_1/lpm_ram_dq_dram.xci] -directory E:/desk/code/verilog/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir E:/desk/code/verilog/lab3/lab3.ip_user_files -ipstatic_source_dir E:/desk/code/verilog/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/modelsim} {questa=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/questa} {riviera=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/riviera} {activehdl=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.Fill_Remaining_Memory_Locations {true}] [get_ips lpm_rom_irom]
+generate_target all [get_files  e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom_1/lpm_rom_irom.xci]
+catch { config_ip_cache -export [get_ips -all lpm_rom_irom] }
+export_ip_user_files -of_objects [get_files e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom_1/lpm_rom_irom.xci] -no_script -sync -force -quiet
+reset_run lpm_rom_irom_synth_1
+launch_runs lpm_rom_irom_synth_1 -jobs 8
+wait_on_run lpm_rom_irom_synth_1
+export_simulation -of_objects [get_files e:/desk/code/verilog/lab3/lab3.srcs/sources_1/ip/lpm_rom_irom_1/lpm_rom_irom.xci] -directory E:/desk/code/verilog/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir E:/desk/code/verilog/lab3/lab3.ip_user_files -ipstatic_source_dir E:/desk/code/verilog/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/modelsim} {questa=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/questa} {riviera=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/riviera} {activehdl=E:/desk/code/verilog/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source TB_sc_computer.tcl
+restart
+run 1600 ns
+restart
+run 2000 ns
+restart
+run 2000 ns
+save_wave_config {E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg}
+add_files -fileset sim_1 -norecurse E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg
+set_property xsim.view E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg
+source TB_sc_computer.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg
+source TB_sc_computer.tcl
+close_sim
+launch_simulation
+open_wave_config E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg
+source TB_sc_computer.tcl
+close_sim
+launch_simulation
+open_wave_config E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg
+source TB_sc_computer.tcl
+restart
+run 2000 ns
+current_wave_config {TB_sc_computer_behav.wcfg}
+add_wave {{/TB_sc_computer/computer/cpu/rf/register}} 
+restart
+run 2000 ns
+add_bp {E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v} 12
+remove_bps -file {E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v} -line 12
+close_sim

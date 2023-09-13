@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a50tcsg324-1" LaunchTime="1682766900">
+  <File Type="ROUTE-PWR" Name="TB_sc_computer_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="TB_sc_computer.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="TB_sc_computer_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="TB_sc_computer_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="TB_sc_computer.msk"/>
+  <File Type="ROUTE-CLK" Name="TB_sc_computer_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="TB_sc_computer.vdi"/>
+  <File Type="BG-BIT" Name="TB_sc_computer.bit"/>
+  <File Type="BG-DRC" Name="TB_sc_computer.drc"/>
+  <File Type="BG-BGN" Name="TB_sc_computer.bgn"/>
+  <File Type="BG-BIN" Name="TB_sc_computer.bin"/>
+  <File Type="BITSTR-RBT" Name="TB_sc_computer.rbt"/>
+  <File Type="BITSTR-NKY" Name="TB_sc_computer.nky"/>
+  <File Type="BITSTR-BMM" Name="TB_sc_computer_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TB_sc_computer_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="TB_sc_computer.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TB_sc_computer_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="TB_sc_computer.sysdef"/>
+  <File Type="ROUTE-DRC-RPX" Name="TB_sc_computer_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="TB_sc_computer.ltx"/>
+  <File Type="RCFI_FILE" Name="TB_sc_computer.rcfi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="TB_sc_computer_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TB_sc_computer.hwdef"/>
+  <File Type="PLACE-IO" Name="TB_sc_computer_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TB_sc_computer_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TB_sc_computer_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TB_sc_computer_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TB_sc_computer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="TB_sc_computer_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TB_sc_computer_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="TB_sc_computer_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="TB_sc_computer_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TB_sc_computer_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="TB_sc_computer_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TB_sc_computer_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TB_sc_computer_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TB_sc_computer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TB_sc_computer_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TB_sc_computer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="TB_sc_computer_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="TB_sc_computer_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="TB_sc_computer_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="TB_sc_computer_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="TB_sc_computer_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="TB_sc_computer_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TB_sc_computer_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="TB_sc_computer_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TB_sc_computer_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TB_sc_computer_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TB_sc_computer_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="TB_sc_computer.pdi"/>
+  <File Type="CFI_FILE" Name="TB_sc_computer.cfi"/>
+  <File Type="RNPI_FILE" Name="TB_sc_computer.rnpi"/>
+  <File Type="NPI_FILE" Name="TB_sc_computer.npi"/>
+  <File Type="RBD_FILE" Name="TB_sc_computer.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/lpm_rom_irom/lpm_rom_irom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/alu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/dff32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/immext.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_computer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_datamem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_instmem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/sim/TB_sc_computer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/sc_datamem.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/lpm_rom_irom.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TB_sc_computer"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/constr/sc_computer_iotest.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="lpm_ram_dq_dram"/>
+</GenRun>

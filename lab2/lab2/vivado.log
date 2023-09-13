@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 13 23:04:26 2023
+# Process ID: 22216
+# Current directory: E:/desk/code/verilog/lab2/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16100 E:\desk\code\verilog\lab2\lab2\project_2.xpr
+# Log file: E:/desk/code/verilog/lab2/lab2/vivado.log
+# Journal file: E:/desk/code/verilog/lab2/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/desk/code/verilog/lab2/lab2/project_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/lenovo/Desktop/project/lab2' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/desk/code/verilog/computer composition project/lab2/clk_div.v', nor could it be found using path 'C:/Users/lenovo/Desktop/computer composition project/lab2/clk_div.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/desk/code/verilog/computer composition project/lab2/dff32.v', nor could it be found using path 'C:/Users/lenovo/Desktop/computer composition project/lab2/dff32.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/desk/code/verilog/computer composition project/lab1/display.v', nor could it be found using path 'C:/Users/lenovo/Desktop/computer composition project/lab1/display.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/desk/code/verilog/computer composition project/lab2/sc_cu.v', nor could it be found using path 'C:/Users/lenovo/Desktop/computer composition project/lab2/sc_cu.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/desk/code/verilog/computer composition project/lab1/seg7.v', nor could it be found using path 'C:/Users/lenovo/Desktop/computer composition project/lab1/seg7.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/desk/code/verilog/computer composition project/lab2/irom_test_top.v', nor could it be found using path 'C:/Users/lenovo/Desktop/computer composition project/lab2/irom_test_top.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/desk/code/verilog/computer composition project/lab1/sc_computer_iotest.xdc', nor could it be found using path 'C:/Users/lenovo/Desktop/computer composition project/lab1/sc_computer_iotest.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/items/xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1108.230 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 14 22:03:24 2023...

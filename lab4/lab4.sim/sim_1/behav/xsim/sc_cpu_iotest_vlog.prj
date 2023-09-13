@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab4.gen/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v" \
+"../../../../lab4.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/alu.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/clock_and_mem_clock.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/dff32.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/display.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/immext.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/in_port.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/io_input.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/io_output.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/out_port_hex2dec.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/sc_computer_main.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cu.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/sc_datamem.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/sc_instmem.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/seg7.v" \
+"../../../../../../../../lessons/大二下/计算机组成/lab/lab4/lab4/lab4/zip_lab4 sc_computer_io/zip_lab4 sc_computer_io/src/sc_cpu_iotest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

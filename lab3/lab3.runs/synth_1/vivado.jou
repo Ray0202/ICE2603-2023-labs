@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 29 19:15:11 2023
+# Process ID: 12528
+# Current directory: E:/desk/code/verilog/lab3/lab3.runs/synth_1
+# Command line: vivado.exe -log TB_sc_computer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TB_sc_computer.tcl
+# Log file: E:/desk/code/verilog/lab3/lab3.runs/synth_1/TB_sc_computer.vds
+# Journal file: E:/desk/code/verilog/lab3/lab3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TB_sc_computer.tcl -notrace

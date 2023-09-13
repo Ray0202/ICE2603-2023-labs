@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 25 10:48:17 2023
+# Process ID: 10996
+# Current directory: E:/desk/code/verilog/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13660 E:\desk\code\verilog\lab3\lab3.xpr
+# Log file: E:/desk/code/verilog/lab3/vivado.log
+# Journal file: E:/desk/code/verilog/lab3\vivado.jou
+#----------------------------------------------------------sstart_guioopen_project E:/desk/code/verilog/lab3/lab3.xprupdate_compile_order -fileset sources_1
+1

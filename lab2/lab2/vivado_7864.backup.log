@@ -1,0 +1,385 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 18:33:43 2023
+# Process ID: 7864
+# Current directory: C:/Users/lenovo/Desktop/project/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1764 C:\Users\lenovo\Desktop\project\lab2\project_2.xpr
+# Log file: C:/Users/lenovo/Desktop/project/lab2/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/project/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/project/lab2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx_Vivado_SDK_2017.3_1005_1/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Enable_A {Use_ENA_Pin}] [get_ips blk_mem_gen_0]
+delete_ip_run [get_files -of_objects [get_fileset blk_mem_gen_0] C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [Project 1-386] Moving file 'C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' from fileset 'blk_mem_gen_0' to fileset 'sources_1'.
+set_property generate_synth_checkpoint false [get_files  C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+generate_target all [get_files  C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+export_ip_user_files -of_objects [get_files C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -directory C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files -ipstatic_source_dir C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/modelsim} {questa=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_ENABLED 0 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+set_property IS_ENABLED 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.vho]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.vho
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.vho]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.vho
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_ENABLED 0 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+set_property IS_ENABLED 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property IS_GLOBAL_INCLUDE 1 [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property USED_IN {} [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo]
+set_property USER_LOCKED 1 [get_ips blk_mem_gen_0]
+ERROR: [Vivado 12-6429] Cannot lock IP blk_mem_gen_0; this IP does not support locked-by-user.
+ERROR: [Common 17-39] 'set_property' failed due to earlier errors.
+set_property USER_LOCKED 1 [get_ips blk_mem_gen_0]
+ERROR: [Vivado 12-6429] Cannot lock IP blk_mem_gen_0; this IP does not support locked-by-user.
+ERROR: [Common 17-39] 'set_property' failed due to earlier errors.
+set_property USER_LOCKED 1 [get_ips blk_mem_gen_0]
+ERROR: [Vivado 12-6429] Cannot lock IP blk_mem_gen_0; this IP does not support locked-by-user.
+ERROR: [Common 17-39] 'set_property' failed due to earlier errors.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property generate_synth_checkpoint true [get_files  C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+generate_target all [get_files  C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+WARNING: [Vivado 12-4154] User modified property 'UserDisabled' (with value '0') was detected on 'c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.veo'.
+WARNING: [Vivado 12-4152] One or more user modified properties were detected. The reset_target command can be used to reset the targets data which will also reset all target properties.
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP blk_mem_gen_0, cache-ID = 8305076bac4fffef; cache size = 0.419 MB.
+export_ip_user_files -of_objects [get_files C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci'
+export_simulation -of_objects [get_files C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -directory C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files -ipstatic_source_dir C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/modelsim} {questa=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+export_ip_user_files -of_objects  [get_files C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -reset -force -quiet
+remove_files  C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+file delete -force C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/blk_mem_gen_0
+file delete -force c:/Users/lenovo/Desktop/project/lab2/project_2.gen/sources_1/ip/blk_mem_gen_0
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/lenovo/Desktop/project/lab2/irom.coe' provided. It will be converted relative to IP Instance files '../../../../irom.coe'
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name irom
+set_property -dict [list CONFIG.Component_Name {irom} CONFIG.Memory_Type {Single_Port_ROM} CONFIG.Write_Width_A {32} CONFIG.Write_Depth_A {64} CONFIG.Read_Width_A {32} CONFIG.Write_Width_B {32} CONFIG.Read_Width_B {32} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/lenovo/Desktop/project/lab2/irom.coe} CONFIG.Fill_Remaining_Memory_Locations {true} CONFIG.Port_A_Write_Rate {0}] [get_ips irom]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'irom' to 'irom' is not allowed and is ignored.
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/lenovo/Desktop/project/lab2/irom.coe' provided. It will be converted relative to IP Instance files '../../../../irom.coe'
+generate_target {instantiation_template} [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'irom'...
+generate_target all [get_files  c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'irom'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'irom'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'irom'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'irom'...
+catch { config_ip_cache -export [get_ips -all irom] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP irom, cache-ID = 8305076bac4fffef; cache size = 0.419 MB.
+export_ip_user_files -of_objects [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci'
+export_simulation -of_objects [get_files c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci] -directory C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files -ipstatic_source_dir C:/Users/lenovo/Desktop/project/lab2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/modelsim} {questa=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/project/lab2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci' is already up-to-date
+[Tue Apr 11 18:55:47 2023] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/synth_1/runme.log
+[Tue Apr 11 18:55:48 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a50tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1258.750 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1904.047 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1904.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1904.047 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 2047.004 ; gain = 1032.438
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci' is already up-to-date
+[Tue Apr 11 19:03:26 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2126.438 ; gain = 49.574
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci' is already up-to-date
+[Tue Apr 11 19:14:11 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci' is already up-to-date
+[Tue Apr 11 19:14:59 2023] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/synth_1/runme.log
+[Tue Apr 11 19:14:59 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 3701.801 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci' is already up-to-date
+[Tue Apr 11 19:18:23 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci' is already up-to-date
+[Tue Apr 11 19:19:09 2023] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/synth_1/runme.log
+[Tue Apr 11 19:19:09 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/runme.log
+close [ open C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/new/immext.v w ]
+add_files C:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/new/immext.v
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 3701.801 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci' is already up-to-date
+[Tue Apr 11 21:00:22 2023] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/synth_1/runme.log
+[Tue Apr 11 21:00:22 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/lenovo/Desktop/project/lab2/project_2.srcs/sources_1/ip/irom/irom.xci' is already up-to-date
+[Tue Apr 11 21:01:32 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 3731.734 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/project/lab2/project_2.runs/impl_1/irom_test_top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 11 21:20:49 2023...

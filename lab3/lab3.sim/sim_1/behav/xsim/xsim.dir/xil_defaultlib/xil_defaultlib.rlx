@@ -1,0 +1,20 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_ram_dq_dram_1/sim/lpm_ram_dq_dram.v,1682768002,verilog,,E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_rom_irom_1/sim/lpm_rom_irom.v,,lpm_ram_dq_dram,,,,,,,,
+E:/desk/code/verilog/lab3/lab3.gen/sources_1/ip/lpm_rom_irom_1/sim/lpm_rom_irom.v,1682768023,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/alu.v,,lpm_rom_irom,,,,,,,,
+E:/desk/code/verilog/lab3/lab3.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/sim/TB_sc_computer.v,1640844270,verilog,,,,TB_sc_computer,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/alu.v,1683960157,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v,,alu,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v,1586946770,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/dff32.v,,cla32,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/dff32.v,1635303178,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/immext.v,,dff32,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/immext.v,1682771798,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v,,immext,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v,1252908544,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v,,mux2x32,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v,1252998688,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v,,mux4x32,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v,1639981609,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_computer.v,,regfile,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_computer.v,1649416291,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v,,sc_computer,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v,1683947154,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cu.v,,sc_cpu,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cu.v,1683960039,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_datamem.v,,sc_cu,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_datamem.v,1640838084,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_instmem.v,,sc_datamem,,,,,,,,
+E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_instmem.v,1640838298,verilog,,E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/sim/TB_sc_computer.v,,sc_instmem,,,,,,,,

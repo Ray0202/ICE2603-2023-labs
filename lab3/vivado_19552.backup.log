@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 28 13:56:14 2023
+# Process ID: 19552
+# Current directory: E:/desk/code/verilog/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8636 E:\desk\code\verilog\lab3\lab3.xpr
+# Log file: E:/desk/code/verilog/lab3/vivado.log
+# Journal file: E:/desk/code/verilog/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/desk/code/verilog/lab3/lab3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/items/xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1042.750 ; gain = 118.965
+update_compile_order -fileset sources_1
+add_files -norecurse {{E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v}}
+WARNING: [filemgmt 56-12] File 'E:/lessons/大二下/计算机组成/lab/lab3/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v' cannot be added to the project because it already exists in the project, skipping this file
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 15:18:41 2023...

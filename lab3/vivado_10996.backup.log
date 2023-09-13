@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 25 10:48:17 2023
+# Process ID: 10996
+# Current directory: E:/desk/code/verilog/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13660 E:\desk\code\verilog\lab3\lab3.xpr
+# Log file: E:/desk/code/verilog/lab3/vivado.log
+# Journal file: E:/desk/code/verilog/lab3\vivado.jou
+#----------------------------------------------------------sstart_guioopen_project E:/desk/code/verilog/lab3/lab3.xprSScanning sources...
+Finished scanning sourcesIINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifiedININFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/items/xilinx/Vivado/2020.2/data/ip'open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 980.141 ; gain = 0.000
+update_compile_order -fileset sources_1
+exeexit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 25 11:00:33 2023...
+

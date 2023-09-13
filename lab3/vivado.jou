@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 26 21:11:27 2023
+# Process ID: 42040
+# Current directory: E:/desk/code/verilog/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31580 E:\desk\code\verilog\lab3\lab3.xpr
+# Log file: E:/desk/code/verilog/lab3/vivado.log
+# Journal file: E:/desk/code/verilog/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/desk/code/verilog/lab3/lab3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg
+source TB_sc_computer.tcl
+relaunch_sim
+relaunch_sim
+save_wave_config {E:/desk/code/verilog/lab3/TB_sc_computer_behav.wcfg}
+close_sim

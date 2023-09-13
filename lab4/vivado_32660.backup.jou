@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May 21 22:14:20 2023
+# Process ID: 32660
+# Current directory: E:/desk/code/verilog/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29988 E:\desk\code\verilog\lab4\lab4.xpr
+# Log file: E:/desk/code/verilog/lab4/vivado.log
+# Journal file: E:/desk/code/verilog/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/desk/code/verilog/lab4/lab4.xpr
+update_compile_order -fileset sources_1
+file mkdir E:/desk/code/verilog/lab4/lab4.srcs/sources_1/new
+close [ open E:/desk/code/verilog/lab4/lab4.srcs/sources_1/new/sys_clk_counter.v w ]
+add_files E:/desk/code/verilog/lab4/lab4.srcs/sources_1/new/sys_clk_counter.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
